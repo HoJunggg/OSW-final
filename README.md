@@ -20,7 +20,7 @@ tumor data set이랑 sklearn 라이브러리를 이용하여 4가지의 tumor를
    데이터 일반화를 시키기위해 가지고 있는 Train data를 이미지 증강하여 Train data set에 추가해 주었습니다.
 
    먼저 픽셀의 대비를 조절 한 후 명암을 조절한 데이터 set을 추가하였고 이후 원래 train data에서 noisy를 낀 데이터를 추가했습니다.
-   
+   또한 Train data의 수를 늘리기 위해 train,test split을 0.00001을 사용하였습니다.
 ## Models
 
 - Support Vector Machine (SVM)
